@@ -56,3 +56,41 @@ let SNumber = String(Num)
 console.log(typeof Num);
 console.log(typeof SNumber);
 
+
+// ******************************** Operations *****************************
+
+console.log("---------------Opearations------------------");
+
+let value = 3 
+let negValue = -value
+console.log(negValue);    // -3
+
+console.log(2+2)   //4
+console.log(2-2)  // 0
+console.log(2*2)  // 4
+console.log(2**2)  // 4
+console.log(2/2)   // 1
+console.log(2%2)   // 0
+
+let str1 = "krish"
+let str2 =" gajare"
+
+console.log(str1 + str2);  // krish gajare
+
+console.log("1" +2 );  //12
+console.log(1 + "2");  // 12
+console.log("1" + 2 + 2); // 122
+console.log(1+2+"2");  // 32
+
+let num1,num2,num3
+
+num1 = num2 = num3 = 2+2
+
+let gameCounter = 100
+gameCounter++;         // prefix and postfix same as java
+console.log(gameCounter);
+
+
+
+
+
