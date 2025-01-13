@@ -35,3 +35,30 @@ const myFunction = function(){
 
 console.log(typeof anotherId);
 
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack(Primitive) , Heap( Non-Primitive)
+
+let myYoutubename = "krishyt"
+
+let anothername = myYoutubename
+anothername ="chaiorcode"
+
+console.log(anothername);
+
+let userOne ={
+    email:"user@gmail.com",
+    upi:"user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "krish@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);     // If we change in one object then automatically value will reflect in another object
+
+
+
