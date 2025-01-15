@@ -75,6 +75,24 @@ console.log(Object.values(tinderUser1)); // [ 'krish', 21, false ]   return type
 console.log(Object.entries(tinderUser1)); // [ [ 'name', 'krish' ], [ 'age', 21 ], [ 'isLoggedIn', false ] ]  return type nested array
 console.log(tinderUser1.hasOwnProperty('name'));
 
+// Object destructurization
+
+const course = {
+    coursename:"JavaSctript",
+    price: "999",
+    courseInstructor:"Hitesh"
+}
+
+const {courseInstructor} = course
+console.log(courseInstructor);
+
+// We can also change name in objects
+const {courseInstructor:instructor} = course
+console.log(instructor);
+
+
+
+
 
 
 
